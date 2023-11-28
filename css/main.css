@@ -1,4 +1,108 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.text-primary {
+  color: hsl(224, 85%, 56%);
+}
+
+.bg-primary {
+  background-color: hsl(224, 85%, 56%);
+}
+
+.text-secondary {
+  color: hsl(158, 77%, 44%);
+}
+
+.bg-secondary {
+  background-color: hsl(158, 77%, 44%);
+}
+
+.text-error {
+  color: hsl(345, 69%, 49%);
+}
+
+.bg-error {
+  background-color: hsl(345, 69%, 49%);
+}
+
+.text-info {
+  color: hsl(46, 92%, 54%);
+}
+
+.bg-info {
+  background-color: hsl(46, 92%, 54%);
+}
+
+.text-blue {
+  color: hsl(240, 80%, 50%);
+}
+
+.bg-blue {
+  background-color: hsl(240, 80%, 50%);
+}
+
+.text-red {
+  color: hsl(0, 80%, 50%);
+}
+
+.bg-red {
+  background-color: hsl(0, 80%, 50%);
+}
+
+.text-yellow {
+  color: hsl(60, 80%, 50%);
+}
+
+.bg-yellow {
+  background-color: hsl(60, 80%, 50%);
+}
+
+.text-green {
+  color: hsl(128, 80%, 50%);
+}
+
+.bg-green {
+  background-color: hsl(128, 80%, 50%);
+}
+
+.text-orange {
+  color: hsl(39, 100%, 50%);
+}
+
+.bg-orange {
+  background-color: hsl(39, 100%, 50%);
+}
+
+.text-purple {
+  color: hsl(276, 100%, 50%);
+}
+
+.bg-purple {
+  background-color: hsl(276, 100%, 50%);
+}
+
+.text-gray {
+  color: hsl(0, 0%, 50%);
+}
+
+.bg-gray {
+  background-color: hsl(0, 0%, 50%);
+}
+
+.text-black {
+  color: black;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.text-white {
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+}
+
 * {
   color: inherit;
   margin: 0;
@@ -45,131 +149,27 @@ img {
   text-decoration: underline;
 }
 
-.text-primary {
-  color: #3263ee;
-}
-
-.bg-primary {
-  background-color: #3263ee;
-}
-
-.text-secondary {
-  color: #1ac888;
-}
-
-.bg-secondary {
-  background-color: #1ac888;
-}
-
-.text-error {
-  color: #d32752;
-}
-
-.bg-error {
-  background-color: #d32752;
-}
-
-.text-info {
-  color: #f6c31c;
-}
-
-.bg-info {
-  background-color: #f6c31c;
-}
-
-.text-blue {
-  color: #1919e6;
-}
-
-.bg-blue {
-  background-color: #1919e6;
-}
-
-.text-red {
-  color: #e61919;
-}
-
-.bg-red {
-  background-color: #e61919;
-}
-
-.text-yellow {
-  color: #e6e619;
-}
-
-.bg-yellow {
-  background-color: #e6e619;
-}
-
-.text-green {
-  color: #19e635;
-}
-
-.bg-green {
-  background-color: #19e635;
-}
-
-.text-orange {
-  color: #ffa600;
-}
-
-.bg-orange {
-  background-color: #ffa600;
-}
-
-.text-purple {
-  color: #9900ff;
-}
-
-.bg-purple {
-  background-color: #9900ff;
-}
-
-.text-gray {
-  color: #808080;
-}
-
-.bg-gray {
-  background-color: #808080;
-}
-
-.text-black {
-  color: black;
-}
-
-.bg-black {
-  background-color: black;
-}
-
-.text-white {
-  color: white;
-}
-
-.bg-white {
-  background-color: white;
-}
-
 h1 {
-  color: #3263ee;
+  color: hsl(224, 85%, 56%);
   margin-bottom: 0.75rem;
   box-sizing: border-box;
 }
 
 a {
-  color: #1ac888;
+  color: hsl(158, 77%, 44%);
 }
 
 button {
   color: white;
   border: 0;
-  background: #3263ee;
+  background: hsl(224, 85%, 56%);
   border-radius: 20px;
   padding: 0.75rem;
 }
 
 .error {
-  color: #d32752;
-  border-color: #d32752;
+  color: hsl(345, 69%, 49%);
+  border-color: hsl(345, 69%, 49%);
   border-style: solid;
   margin: 0.75rem;
   padding: 0.75rem;
@@ -178,8 +178,8 @@ button {
 }
 
 .notification {
-  color: #1ac888;
-  border-color: #1ac888;
+  color: hsl(158, 77%, 44%);
+  border-color: hsl(158, 77%, 44%);
   border-style: solid;
   margin: 0.75rem;
   padding: 0.75rem;
