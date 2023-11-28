@@ -30,18 +30,123 @@ img {
   display: block;
   padding: 0.75rem;
   border: 1px solid #ddd;
-  box-shadow: 0 0 2px 2px;
+  box-shadow: 1px 3px 5px hsla(0, 100%, 0%, 0.9);
+  border-radius: 5px;
 }
 .card .card-title {
-  font-size: 16px;
+  font-size: 1.5rem;
   padding-bottom: 0.75rem;
   font-weight: bold;
 }
 .card .card-body {
-  font-size: 16px;
+  font-size: 1rem;
 }
 .card .card-body a {
   text-decoration: underline;
+}
+
+.text-primary {
+  color: #3263ee;
+}
+
+.bg-primary {
+  background-color: #3263ee;
+}
+
+.text-secondary {
+  color: #1ac888;
+}
+
+.bg-secondary {
+  background-color: #1ac888;
+}
+
+.text-error {
+  color: #d32752;
+}
+
+.bg-error {
+  background-color: #d32752;
+}
+
+.text-info {
+  color: #f6c31c;
+}
+
+.bg-info {
+  background-color: #f6c31c;
+}
+
+.text-blue {
+  color: #1919e6;
+}
+
+.bg-blue {
+  background-color: #1919e6;
+}
+
+.text-red {
+  color: #e61919;
+}
+
+.bg-red {
+  background-color: #e61919;
+}
+
+.text-yellow {
+  color: #e6e619;
+}
+
+.bg-yellow {
+  background-color: #e6e619;
+}
+
+.text-green {
+  color: #19e635;
+}
+
+.bg-green {
+  background-color: #19e635;
+}
+
+.text-orange {
+  color: #ffa600;
+}
+
+.bg-orange {
+  background-color: #ffa600;
+}
+
+.text-purple {
+  color: #9900ff;
+}
+
+.bg-purple {
+  background-color: #9900ff;
+}
+
+.text-gray {
+  color: #808080;
+}
+
+.bg-gray {
+  background-color: #808080;
+}
+
+.text-black {
+  color: black;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.text-white {
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
 }
 
 h1 {
