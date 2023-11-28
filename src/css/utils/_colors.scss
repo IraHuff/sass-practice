@@ -1,0 +1,30 @@
+//colors
+$themePrimary: hsl(224, 85, 56);
+$themeSecondary: hsl(158, 77, 44);
+$themeError: hsl(345, 69, 49);
+$themeInfo: hsl(46, 92, 54);
+
+$colors: (
+        "primary": $themePrimary,
+        "secondary": $themeSecondary,
+        "error": $themeError,
+        "info": $themeInfo,
+        "blue": hsl(240, 80, 50),
+        "red": hsl(0, 80, 50),
+        "yellow": hsl(60, 80, 50),
+        "green": hsl(128, 80, 50),
+        "orange": hsl(39, 100, 50),
+        "purple": hsl(276, 100, 50),
+        "gray": hsl(0, 0, 50),
+        "black": black,
+        "white": white,
+);
+
+@each $key, $val in $colors {
+  .text-#{$key} {
+    color: $val
+  }
+  .bg-#{$key} {
+    background-color: $val
+  }
+}
